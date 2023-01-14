@@ -1,5 +1,5 @@
 import fileinput
-for s in fileinput.input("C:\\Users\\suhai\\Downloads\\rosalind_dna.txt"):
+for s in fileinput.input("\rosalind_dna.txt"):
 
     acount = 0
     tcount = 0
