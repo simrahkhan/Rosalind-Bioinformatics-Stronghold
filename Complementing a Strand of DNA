@@ -1,0 +1,26 @@
+import fileinput
+for t in fileinput.input("C:\\Users\\suhai\\Downloads\\rosalind_revc.txt"):
+        
+
+    uc = t[::-1]
+    
+    c = ""
+    
+    for i in uc:
+        if i == 'A':
+            c += 'T'
+        
+        elif i == 'T':
+            c += 'A'
+        
+        elif i == 'G':
+            c += 'C'
+        
+        elif i == 'C':
+            c += 'G'   
+        
+        else:
+            pass
+    
+print(c)
+    
