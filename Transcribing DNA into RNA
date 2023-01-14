@@ -1,0 +1,22 @@
+import fileinput
+for t in fileinput.input("\rosalind_rna.txt"):
+        
+    u = ""
+    
+    for i in t:
+        if i == 'A':
+            u += 'A'
+        
+        elif i == 'T':
+            u += 'U'
+        
+        elif i == 'G':
+            u += 'G'
+        
+        elif i == 'C':
+            u += 'C'   
+        
+        else:
+            pass
+    
+print(u)
